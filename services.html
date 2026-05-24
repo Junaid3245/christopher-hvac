@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Christopher HVAC</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- NAV -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="./index.html" class="flex items-center space-x-2">
+          <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg>
+          <span class="text-xl font-bold text-gray-900">Christopher <span class="text-blue-600">HVAC</span></span>
+        </a>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="./index.html" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">Home</a>
+          <a href="./services.html" class="text-blue-600 font-semibold border-b-2 border-blue-600 pb-0.5">Services</a>
+          <a href="./about.html" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">About</a>
+          <a href="./contact.html" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">Contact</a>
+          <a href="./contact.html" class="bg-blue-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Get a Quote</a>
+        </div>
+        <button onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="md:hidden p-2 rounded-md text-gray-600">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden pb-4">
+        <div class="flex flex-col space-y-2">
+          <a href="./index.html" class="text-gray-600 py-2">Home</a>
+          <a href="./services.html" class="text-blue-600 font-semibold py-2">Services</a>
+          <a href="./about.html" class="text-gray-600 py-2">About</a>
+          <a href="./contact.html" class="text-gray-600 py-2">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-5xl font-extrabold mb-4">Our HVAC Services</h1>
+      <p class="text-blue-100 text-xl max-w-2xl mx-auto">Complete heating, ventilation, and air conditioning solutions for residential and light commercial properties.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES DETAIL -->
+  <section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+
+      <!-- AC Repair -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">AC Repair</h2>
+          <p class="text-gray-500 text-lg leading-relaxed mb-6">Is your air conditioner not cooling properly, making strange noises, or refusing to turn on? We diagnose and repair all makes and models of air conditioning systems quickly and affordably.</p>
+          <ul class="space-y-3 text-gray-600">
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-blue-600 rounded-full"></span>Not cooling or weak airflow</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-blue-600 rounded-full"></span>Refrigerant leaks and recharging</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-blue-600 rounded-full"></span>Compressor and capacitor issues</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-blue-600 rounded-full"></span>Thermostat and electrical faults</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-blue-600 rounded-full"></span>Frozen evaporator coils</li>
+          </ul>
+        </div>
+        <div class="bg-blue-50 rounded-3xl p-10 border border-blue-100">
+          <h3 class="font-bold text-gray-900 text-xl mb-4">Typical Service Call</h3>
+          <div class="space-y-4 text-gray-600">
+            <div class="flex justify-between border-b border-blue-100 pb-3"><span>Diagnostic fee</span><span class="font-semibold text-gray-900">$75–$95</span></div>
+            <div class="flex justify-between border-b border-blue-100 pb-3"><span>Minor repair</span><span class="font-semibold text-gray-900">$150–$300</span></div>
+            <div class="flex justify-between border-b border-blue-100 pb-3"><span>Major repair</span><span class="font-semibold text-gray-900">$300–$700</span></div>
+            <div class="flex justify-between"><span>Emergency service</span><span class="font-semibold text-gray-900">+$50 after hours</span></div>
+          </div>
+          <p class="text-blue-600 text-sm mt-4">*Diagnostic fee waived when repair is approved</p>
+        </div>
+      </div>
+
+      <hr class="border-gray-100" />
+
+      <!-- AC Installation -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="order-2 lg:order-1 bg-gray-50 rounded-3xl p-10">
+          <h3 class="font-bold text-gray-900 text-xl mb-4">What's Included</h3>
+          <ul class="space-y-3 text-gray-600">
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-green-500 rounded-full"></span>Free load calculation & sizing</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-green-500 rounded-full"></span>Removal and disposal of old unit</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-green-500 rounded-full"></span>Professional installation & testing</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-green-500 rounded-full"></span>Refrigerant charging & leak check</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-green-500 rounded-full"></span>Thermostat setup & programming</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-green-500 rounded-full"></span>1-year workmanship warranty</li>
+          </ul>
+        </div>
+        <div class="order-1 lg:order-2">
+          <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>
+          </div>
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">AC Installation & Replacement</h2>
+          <p class="text-gray-500 text-lg leading-relaxed mb-6">Ready to upgrade your old, inefficient system? We install all major brands and help you choose the right system for your home's size and your budget. A properly sized and installed system runs more efficiently and lasts longer.</p>
+          <p class="text-gray-500 leading-relaxed">We carry and install Carrier, Trane, Lennox, Goodman, and more. Financing options available for qualified customers.</p>
+        </div>
+      </div>
+
+      <hr class="border-gray-100" />
+
+      <!-- Heating -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <div class="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-orange-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/></svg>
+          </div>
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Heating & Furnace Services</h2>
+          <p class="text-gray-500 text-lg leading-relaxed mb-6">Don't get left in the cold. We repair, service, and install gas furnaces, electric heat pumps, and all types of heating systems. Pre-season tune-ups recommended before winter arrives.</p>
+          <ul class="space-y-3 text-gray-600">
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-orange-400 rounded-full"></span>Gas furnace repair & installation</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-orange-400 rounded-full"></span>Heat pump service & replacement</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-orange-400 rounded-full"></span>Igniter, blower, and heat exchanger repairs</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-orange-400 rounded-full"></span>Carbon monoxide safety inspection</li>
+          </ul>
+        </div>
+        <div class="bg-orange-50 rounded-3xl p-10 border border-orange-100">
+          <h3 class="font-bold text-gray-900 text-xl mb-2">Winter Tune-Up Special</h3>
+          <div class="text-5xl font-extrabold text-orange-500 mb-2">$89</div>
+          <p class="text-gray-500 mb-6">Complete furnace inspection and tune-up — includes cleaning, safety check, and filter replacement.</p>
+          <a href="./contact.html" class="block w-full bg-orange-500 text-white py-3 rounded-xl font-semibold text-center hover:bg-orange-600 transition-colors">Book a Tune-Up</a>
+        </div>
+      </div>
+
+      <hr class="border-gray-100" />
+
+      <!-- Maintenance -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="order-2 lg:order-1 bg-green-50 rounded-3xl p-10 border border-green-100">
+          <h3 class="font-bold text-gray-900 text-xl mb-4">Maintenance Plan Includes</h3>
+          <ul class="space-y-3 text-gray-600">
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-green-500 rounded-full"></span>2 seasonal tune-ups per year</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-green-500 rounded-full"></span>Priority scheduling</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-green-500 rounded-full"></span>10% discount on all repairs</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-green-500 rounded-full"></span>Filter replacement included</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-green-500 rounded-full"></span>Extended equipment life</li>
+          </ul>
+          <div class="mt-6 pt-6 border-t border-green-200">
+            <div class="text-3xl font-extrabold text-green-700">$149<span class="text-lg font-normal text-gray-500">/year</span></div>
+            <a href="./contact.html" class="mt-3 block w-full bg-green-600 text-white py-3 rounded-xl font-semibold text-center hover:bg-green-700 transition-colors">Join the Plan</a>
+          </div>
+        </div>
+        <div class="order-1 lg:order-2">
+          <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Preventive Maintenance Plans</h2>
+          <p class="text-gray-500 text-lg leading-relaxed mb-6">Regular maintenance is the single best investment you can make in your HVAC system. It prevents breakdowns, improves efficiency, and extends the life of your equipment by years.</p>
+          <p class="text-gray-500 leading-relaxed">Join our annual maintenance plan and never worry about remembering to schedule your seasonal checkups — we'll reach out to you when it's time.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EMERGENCY BANNER -->
+  <section class="bg-red-600 py-12">
+    <div class="max-w-6xl mx-auto px-4 text-center text-white">
+      <h2 class="text-3xl font-bold mb-3">24/7 Emergency HVAC Service</h2>
+      <p class="text-red-100 text-lg mb-6">AC died in summer heat? Furnace out in winter? We respond to emergency calls around the clock.</p>
+      <a href="tel:5551234567" class="bg-white text-red-700 px-10 py-4 rounded-xl font-bold text-xl hover:bg-red-50 transition-colors inline-block">📞 Call Now: (555) 123-4567</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-300 py-14">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+        <div>
+          <div class="flex items-center space-x-2 mb-4">
+            <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg>
+            <span class="text-xl font-bold text-white">Christopher <span class="text-blue-400">HVAC</span></span>
+          </div>
+          <p class="text-gray-400 leading-relaxed">Your trusted local HVAC experts. Providing reliable heating and cooling services with honesty and integrity.</p>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-4 text-lg">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="./index.html" class="hover:text-blue-400 transition-colors">Home</a></li>
+            <li><a href="./services.html" class="hover:text-blue-400 transition-colors">Services</a></li>
+            <li><a href="./about.html" class="hover:text-blue-400 transition-colors">About Us</a></li>
+            <li><a href="./contact.html" class="hover:text-blue-400 transition-colors">Contact</a></li>
+            <li><a href="./privacy.html" class="hover:text-blue-400 transition-colors">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-4 text-lg">Contact Info</h4>
+          <ul class="space-y-3 text-gray-400">
+            <li class="flex items-center gap-2">📞 <a href="tel:5551234567" class="hover:text-blue-400">(555) 123-4567</a></li>
+            <li class="flex items-center gap-2">✉️ <a href="mailto:info@christopherhvac.com" class="hover:text-blue-400">info@christopherhvac.com</a></li>
+            <li class="flex items-start gap-2">📍 Serving the Greater Local Area</li>
+            <li class="flex items-center gap-2">🕐 Mon–Fri 8am–6pm | 24/7 Emergency</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-gray-400 text-sm">© 2025 Christopher HVAC. All rights reserved.</p>
+        <a href="./privacy.html" class="text-gray-400 text-sm hover:text-blue-400">Privacy Policy & Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

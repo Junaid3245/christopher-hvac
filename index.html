@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christopher HVAC | Expert Heating & Cooling Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- NAV -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="./index.html" class="flex items-center space-x-2">
+          <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+          </svg>
+          <span class="text-xl font-bold text-gray-900">Christopher <span class="text-blue-600">HVAC</span></span>
+        </a>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="./index.html" class="text-blue-600 font-semibold border-b-2 border-blue-600 pb-0.5">Home</a>
+          <a href="./services.html" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">Services</a>
+          <a href="./about.html" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">About</a>
+          <a href="./contact.html" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">Contact</a>
+          <a href="./contact.html" class="bg-blue-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Get a Quote</a>
+        </div>
+        <!-- Mobile menu -->
+        <button onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="md:hidden p-2 rounded-md text-gray-600 hover:text-blue-600">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden pb-4">
+        <div class="flex flex-col space-y-2">
+          <a href="./index.html" class="text-blue-600 font-semibold py-2">Home</a>
+          <a href="./services.html" class="text-gray-600 py-2">Services</a>
+          <a href="./about.html" class="text-gray-600 py-2">About</a>
+          <a href="./contact.html" class="text-gray-600 py-2">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <span class="inline-block bg-blue-500/30 text-blue-100 text-sm font-semibold px-4 py-1.5 rounded-full mb-6">Licensed & Insured HVAC Professionals</span>
+        <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">Expert HVAC Services<br /><span class="text-blue-300">You Can Trust</span></h1>
+        <p class="text-xl text-blue-100 mb-10 leading-relaxed">Professional heating, ventilation, and air conditioning services for your home and business. Fast, reliable, and affordable — available when you need us most.</p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="./contact.html" class="bg-white text-blue-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-50 transition-colors text-center">Get a Free Quote</a>
+          <a href="tel:5551234567" class="border-2 border-white/60 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transition-colors text-center">📞 (555) 123-4567</a>
+        </div>
+        <div class="mt-12 flex flex-wrap gap-8">
+          <div><div class="text-4xl font-extrabold text-white">10+</div><div class="text-blue-200 text-sm mt-1">Years Experience</div></div>
+          <div class="w-px bg-white/20"></div>
+          <div><div class="text-4xl font-extrabold text-white">500+</div><div class="text-blue-200 text-sm mt-1">Happy Customers</div></div>
+          <div class="w-px bg-white/20"></div>
+          <div><div class="text-4xl font-extrabold text-white">24/7</div><div class="text-blue-200 text-sm mt-1">Emergency Service</div></div>
+          <div class="w-px bg-white/20"></div>
+          <div><div class="text-4xl font-extrabold text-white">100%</div><div class="text-blue-200 text-sm mt-1">Satisfaction Rate</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES OVERVIEW -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+        <p class="text-gray-500 text-lg max-w-2xl mx-auto">From routine maintenance to emergency repairs, we handle all your HVAC needs with professionalism and care.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+          <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">AC Repair</h3>
+          <p class="text-gray-500 leading-relaxed">Fast diagnosis and repair of all AC brands and models. We restore your comfort quickly and reliably.</p>
+          <a href="./services.html" class="mt-4 inline-flex items-center text-blue-600 font-semibold hover:underline">Learn more →</a>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+          <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">AC Installation</h3>
+          <p class="text-gray-500 leading-relaxed">Expert installation of new systems with proper sizing and setup for maximum efficiency and performance.</p>
+          <a href="./services.html" class="mt-4 inline-flex items-center text-blue-600 font-semibold hover:underline">Learn more →</a>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+          <div class="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-orange-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Heating & Furnace</h3>
+          <p class="text-gray-500 leading-relaxed">Complete heating system repair, installation, and maintenance to keep you warm all winter long.</p>
+          <a href="./services.html" class="mt-4 inline-flex items-center text-blue-600 font-semibold hover:underline">Learn more →</a>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+          <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Preventive Maintenance</h3>
+          <p class="text-gray-500 leading-relaxed">Seasonal tune-ups and maintenance plans that extend the life of your system and prevent costly breakdowns.</p>
+          <a href="./services.html" class="mt-4 inline-flex items-center text-blue-600 font-semibold hover:underline">Learn more →</a>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+          <div class="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-purple-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Indoor Air Quality</h3>
+          <p class="text-gray-500 leading-relaxed">Air purification, filtration, and humidity control solutions for a healthier home environment.</p>
+          <a href="./services.html" class="mt-4 inline-flex items-center text-blue-600 font-semibold hover:underline">Learn more →</a>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+          <div class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-red-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">24/7 Emergency Service</h3>
+          <p class="text-gray-500 leading-relaxed">HVAC emergencies don't wait for business hours. We're available around the clock when you need us.</p>
+          <a href="./contact.html" class="mt-4 inline-flex items-center text-blue-600 font-semibold hover:underline">Call now →</a>
+        </div>
+      </div>
+      <div class="text-center mt-12">
+        <a href="./services.html" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors inline-block">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div>
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">Why Homeowners Choose<br /><span class="text-blue-600">Christopher HVAC</span></h2>
+          <p class="text-gray-500 text-lg mb-10 leading-relaxed">We're not just another HVAC company. We're your neighbors, and we treat every home like our own.</p>
+          <div class="space-y-6">
+            <div class="flex gap-4">
+              <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center shrink-0 mt-1">
+                <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-900 text-lg">Upfront Pricing — No Surprises</h3>
+                <p class="text-gray-500 mt-1">We provide detailed quotes before any work begins. What we quote is what you pay.</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center shrink-0 mt-1">
+                <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-900 text-lg">EPA 608 & NATE Certified</h3>
+                <p class="text-gray-500 mt-1">Fully licensed, bonded, and insured technicians with up-to-date industry certifications.</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center shrink-0 mt-1">
+                <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-900 text-lg">Same-Day Service Available</h3>
+                <p class="text-gray-500 mt-1">Most repair calls are completed same-day. We respect your time and schedule.</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center shrink-0 mt-1">
+                <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-900 text-lg">1-Year Workmanship Warranty</h3>
+                <p class="text-gray-500 mt-1">All our repairs and installations come backed by our satisfaction guarantee.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl p-10 text-white">
+          <h3 class="text-2xl font-bold mb-8">Request a Free Quote</h3>
+          <div class="space-y-4">
+            <input type="text" placeholder="Your Name" class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-blue-200 outline-none focus:border-white" />
+            <input type="tel" placeholder="Phone Number" class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-blue-200 outline-none focus:border-white" />
+            <select class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white outline-none focus:border-white">
+              <option value="" class="text-gray-900">Select Service</option>
+              <option class="text-gray-900">AC Repair</option>
+              <option class="text-gray-900">AC Installation</option>
+              <option class="text-gray-900">Heating / Furnace</option>
+              <option class="text-gray-900">Preventive Maintenance</option>
+              <option class="text-gray-900">Emergency Service</option>
+            </select>
+            <textarea rows="3" placeholder="Describe your issue..." class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-blue-200 outline-none focus:border-white resize-none"></textarea>
+            <a href="./contact.html" class="block w-full bg-white text-blue-900 py-4 rounded-xl font-bold text-center hover:bg-blue-50 transition-colors">Send Request</a>
+          </div>
+          <p class="text-blue-200 text-sm text-center mt-4">We respond within 1 business hour</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="bg-blue-600 py-14">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">HVAC Emergency? We're Available 24/7</h2>
+      <p class="text-blue-100 text-lg mb-8">Don't suffer through the heat or cold. Call us now for immediate assistance.</p>
+      <a href="tel:5551234567" class="bg-white text-blue-700 px-10 py-4 rounded-xl font-bold text-xl hover:bg-blue-50 transition-colors inline-block">📞 (555) 123-4567</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-300 py-14">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+        <div>
+          <div class="flex items-center space-x-2 mb-4">
+            <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg>
+            <span class="text-xl font-bold text-white">Christopher <span class="text-blue-400">HVAC</span></span>
+          </div>
+          <p class="text-gray-400 leading-relaxed">Your trusted local HVAC experts. Providing reliable heating and cooling services with honesty and integrity.</p>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-4 text-lg">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="./index.html" class="hover:text-blue-400 transition-colors">Home</a></li>
+            <li><a href="./services.html" class="hover:text-blue-400 transition-colors">Services</a></li>
+            <li><a href="./about.html" class="hover:text-blue-400 transition-colors">About Us</a></li>
+            <li><a href="./contact.html" class="hover:text-blue-400 transition-colors">Contact</a></li>
+            <li><a href="./privacy.html" class="hover:text-blue-400 transition-colors">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-4 text-lg">Contact Info</h4>
+          <ul class="space-y-3 text-gray-400">
+            <li class="flex items-center gap-2">📞 <a href="tel:5551234567" class="hover:text-blue-400">(555) 123-4567</a></li>
+            <li class="flex items-center gap-2">✉️ <a href="mailto:info@christopherhvac.com" class="hover:text-blue-400">info@christopherhvac.com</a></li>
+            <li class="flex items-start gap-2">📍 Serving the Greater Local Area</li>
+            <li class="flex items-center gap-2">🕐 Mon–Fri 8am–6pm | 24/7 Emergency</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-gray-400 text-sm">© 2025 Christopher HVAC. All rights reserved.</p>
+        <a href="./privacy.html" class="text-gray-400 text-sm hover:text-blue-400">Privacy Policy & Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
